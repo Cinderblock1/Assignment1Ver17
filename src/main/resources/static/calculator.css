@@ -1,0 +1,126 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(141, 32, 32);
+}
+
+.outerBox {
+    background: rgb(50, 50, 50);
+    width: 80%px;
+    padding-top:20px;
+    padding-bottom:30px;
+    margin: 50px;
+    height: 40%;
+
+}
+.innerBox {
+    background-color: rgb(217, 217, 217);
+    width: 80%px;
+    
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+
+    height: 80%;
+
+}
+
+.tableSec {
+    background-color: rgb(198, 206, 214);
+    width:90%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+    border-radius: 5px; /* Round Corner */
+}
+
+header {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    font-family: Sans-serif;
+
+}
+
+h1 {
+    color:rgb(141, 32, 32);
+}
+
+#activityTable {
+    border: 1px solid rgb(138, 138, 138);
+    border-collapse: collapse;
+    table-layout: fixed;
+    width:80%;
+}
+
+#activityTable th {
+    background-color: rgb(165, 165, 165);
+    border: 1px solid rgb(138, 138, 138);
+    border-collapse: collapse;
+    text-align: left;
+}
+
+#activityTable tr, #activityTable td {
+    table-layout: fixed;
+    border: 1px solid rgb(138, 138, 138);
+    border-collapse: collapse;
+}
+
+
+
+.weight {
+    width:40px;
+    height:30px;
+    margin:10px;
+}
+
+
+
+
+.gradeReceived {
+    width:40px;
+    height:30px;
+    margin:10px;
+}
+
+
+
+.gradeTotal {
+    width:40px;
+    height:30px;
+    margin:10px;
+}
+
+#AddRow {
+    margin-top:20px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 3px;
+    border: 1px solid; 
+
+}
+
+.inline-buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+#weighted {
+    color:rgb(209, 209, 209);
+    background-color: rgb(190, 54, 54);
+    border-radius: 3px;
+    border:none;
+    padding: 1%;
+}
+
+#mean {
+    color:rgb(198, 198, 198);
+    background-color: rgb(190, 54, 54);
+    border-radius: 3px;
+    border:none;
+    padding: 1%;
+}

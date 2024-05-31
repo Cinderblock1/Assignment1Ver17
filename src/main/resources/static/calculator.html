@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <main>
+        <section class = "outerBox">
+            <section class = "innerBox">
+                <header>Grade Calculator</header>
+                <section class = "tableSec">
+                    <h1>Activities</h1>
+                    <p>Give grades to the numeric activies:</p>
+                    <table id="activityTable">
+                        <tr>
+                            <th>Name</th>
+                            <th>Short Name</th>
+                            <th>Weight</th>
+                            <th>Grade</th>
+                            <th>Percent</th>
+                        </tr>
+                        <tr>
+                            <td>Activity 1</td>
+                            <td>A1</td>
+                            <td><input type="number" id="weight1" class="weight" min="0" max="100"></td>
+                            <td><input type="number" id="gradeReceived1" class="gradeReceived"> / <input type="number" id="gradeTotal1" class="gradeTotal" ></td>
+                            <td><p id="percentage1" class="percentage"></p></td>
+                        </tr>
+                    </table>
+                    <button id="AddRow" onclick="addActivity()">ADD ROW</button>
+                    <h1>Result</h1>
+                    <p id="results"></p>
+                    <div class="inline-buttons">
+                        <button id="weighted" onclick="weighted()">WEIGHTED</button>
+                        <button id="mean" onclick="mean()">MEAN</button>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </main>
+    
+</body>
+</html>
